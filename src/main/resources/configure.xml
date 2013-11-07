@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+<!--use hadoop configuration to extract the xml-->
+
+ <configuration>
+    <property>
+       <name>lf.base.url</name>
+       <value>http://news.sina.com.cn/</value>
+    </property>
+    <property>
+        <name>table.todo_table</name>
+        <value>sina_news_todo</value>
+    </property>
+    <property>
+        <name>table.visited_table</name>
+        <value>sina_news_visited</value>
+    </property>
+    <property>
+        <name>lf.fiter.re</name>
+        <value>news.sina</value>
+    </property>
+    <property>
+        <name>lf.index.fields</name>
+        <value>url,title,publish_time,articlebody, media,cmtlink,joiner,cmter</value>
+    </property>
+ </configuration>
